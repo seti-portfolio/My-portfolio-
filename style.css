@@ -542,6 +542,7 @@ footer p {
     color: #aaa4bd;
     font-size: 14px;
     letter-spacing: 1px;
+
 }
 @media (max-width: 600px) {
     #skills,
@@ -566,5 +567,23 @@ footer p {
     #projects h2,
     #contact h2 {
         font-size: 29px;
+    }
+    @media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 12px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 14px;
     }
     }
