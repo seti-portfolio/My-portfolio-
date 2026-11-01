@@ -642,3 +642,22 @@ footer p {
 .design-progress {
     width: 30%;
 }
+.skill-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.skill-info .skill-bar {
+    flex: 1;
+    margin-top: 0;
+}
+
+.skill-info span {
+    color: #c4b5fd;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 40px;
+    text-align: right;
+                                }
