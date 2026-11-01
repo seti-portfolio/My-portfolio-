@@ -290,3 +290,42 @@ footer {
         font-size: 17px;
     }
 }
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #a78bfa;
+    color: #0b0b12;
+    box-shadow: 0 0 15px #a78bfa;
+}
+
+.btn-primary:hover {
+    background: #c4b5fd;
+    box-shadow: 0 0 30px #a78bfa;
+    transform: translateY(-4px);
+}
+
+.btn-secondary {
+    border: 2px solid #a78bfa;
+    color: #c4b5fd;
+}
+
+.btn-secondary:hover {
+    background: #a78bfa;
+    color: #0b0b12;
+    transform: translateY(-4px);
+        }
