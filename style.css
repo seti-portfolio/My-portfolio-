@@ -382,3 +382,14 @@ header h1 {
     color: #a78bfa;
     letter-spacing: 3px;
 }
+.btn-primary:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #a78bfa;
+}
+
+.btn-secondary:hover {
+    background: #a78bfa;
+    color: #0b0b12;
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #a78bfa;
+    }
