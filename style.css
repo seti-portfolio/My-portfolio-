@@ -358,3 +358,27 @@ footer {
     border: 2px solid #a78bfa;
     color: #c4b5fd;
     }
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #a78bfa;
+    text-shadow: 0 0 12px #a78bfa;
+}
+
+header {
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+header h1 {
+    color: #a78bfa;
+    letter-spacing: 3px;
+}
