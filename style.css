@@ -243,3 +243,50 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+#home {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: radial-gradient(
+        circle at center,
+        #211442 0%,
+        #0b0b12 65%
+    );
+}
+
+#home h2 {
+    font-size: 56px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 21px;
+    color: #c4b5fd;
+    margin-bottom: 25px;
+}
+
+#home h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #a78bfa;
+    border-radius: 10px;
+    margin: 18px auto;
+    box-shadow: 0 0 15px #a78bfa;
+}
+
+@media (max-width: 600px) {
+    #home h2 {
+        font-size: 38px;
+    }
+
+    #home p {
+        font-size: 17px;
+    }
+}
