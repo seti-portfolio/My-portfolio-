@@ -396,3 +396,12 @@ header h1 {
 html {
     scroll-behavior: smooth;
     }
+.project-card {
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
+    border-color: #a78bfa;
+    }
